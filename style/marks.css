@@ -1,0 +1,131 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+.marks {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    /* background-color: #ff9100; */
+}
+
+
+
+.marks li{
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    /* background-color: black; */
+}
+.marks li::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    background-color: rgb(255, 195, 83);
+}
+.marks li::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 8px;
+    height: 2px;
+    background-color: rgb(255, 195, 83);
+}
+
+.marks li:nth-child(1) {
+    transform: rotate(90deg);
+}
+.marks li:nth-child(2) {
+    transform: rotate(96deg);
+}
+.marks li:nth-child(3) {
+    transform: rotate(102deg);
+}
+.marks li:nth-child(4) {
+    transform: rotate(108deg);
+}
+.marks li:nth-child(5) {
+    transform: rotate(114deg);
+}
+.marks li:nth-child(6) {
+    transform: rotate(120deg);
+}
+.marks li:nth-child(7) {
+    transform: rotate(126deg);
+}
+.marks li:nth-child(8) {
+    transform: rotate(132deg);
+}
+.marks li:nth-child(9) {
+    transform: rotate(138deg);
+}
+.marks li:nth-child(10) {
+    transform: rotate(144deg);
+}
+.marks li:nth-child(11) {
+    transform: rotate(150deg);
+}
+.marks li:nth-child(12) {
+    transform: rotate(156deg);
+}
+.marks li:nth-child(13) {
+    transform: rotate(162deg);
+}
+.marks li:nth-child(14) {
+    transform: rotate(168deg);
+}
+.marks li:nth-child(15) {
+    transform: rotate(174deg);
+}
+.marks li:nth-child(16) {
+    transform: rotate(180deg);
+}
+.marks li:nth-child(17) {
+    transform: rotate(186deg);
+}
+.marks li:nth-child(18) {
+    transform: rotate(192deg);
+}
+.marks li:nth-child(19) {
+    transform: rotate(198deg);
+}
+.marks li:nth-child(20) {
+    transform: rotate(204deg);
+}
+.marks li:nth-child(21) {
+    transform: rotate(210deg);
+}
+.marks li:nth-child(22) {
+    transform: rotate(216deg);
+}
+.marks li:nth-child(23) {
+    transform: rotate(222deg);
+}
+.marks li:nth-child(24) {
+    transform: rotate(228deg);
+}
+.marks li:nth-child(25) {
+    transform: rotate(234deg);
+}
+.marks li:nth-child(26) {
+    transform: rotate(240deg);
+}
+.marks li:nth-child(27) {
+    transform: rotate(246deg);
+}
+.marks li:nth-child(28) {
+    transform: rotate(252deg);
+}
+.marks li:nth-child(29) {
+    transform: rotate(258deg);
+}
+.marks li:nth-child(30) {
+    transform: rotate(264deg);
+}
